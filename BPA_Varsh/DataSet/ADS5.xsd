@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ADS5" targetNamespace="http://tempuri.org/ADS5.xsd" xmlns:mstns="http://tempuri.org/ADS5.xsd" xmlns="http://tempuri.org/ADS5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ADS5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ADS5" msprop:Generator_UserDSName="ADS5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BILLTEST" msprop:Generator_TableClassName="BILLTESTDataTable" msprop:Generator_TableVarName="tableBILLTEST" msprop:Generator_TablePropName="BILLTEST" msprop:Generator_RowDeletingName="BILLTESTRowDeleting" msprop:Generator_RowChangingName="BILLTESTRowChanging" msprop:Generator_RowEvHandlerName="BILLTESTRowChangeEventHandler" msprop:Generator_RowDeletedName="BILLTESTRowDeleted" msprop:Generator_UserTableName="BILLTEST" msprop:Generator_RowChangedName="BILLTESTRowChanged" msprop:Generator_RowEvArgName="BILLTESTRowChangeEvent" msprop:Generator_RowClassName="BILLTESTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PName" msprop:Generator_ColumnVarNameInTable="columnPName" msprop:Generator_ColumnPropNameInRow="PName" msprop:Generator_ColumnPropNameInTable="PNameColumn" msprop:Generator_UserColumnName="PName" type="xs:string" minOccurs="0" />
+              <xs:element name="Profit" msprop:Generator_ColumnVarNameInTable="columnProfit" msprop:Generator_ColumnPropNameInRow="Profit" msprop:Generator_ColumnPropNameInTable="ProfitColumn" msprop:Generator_UserColumnName="Profit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

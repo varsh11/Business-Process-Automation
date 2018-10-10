@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BPA_Varsh.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Process Automation</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/images/logoFINAL.png" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="Default.aspx" style="font-family: Impact; font-size: xx-large">B P A</a>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logoFINAL.png" AlternateText="&lt;LOGO&gt;" Height="55px" Width="55px" ImageAlign="Middle" />
+                </div>
+                <ul class="nav navbar-nav" style="font-family: Andalus; font-size: x-large">
+                    <li><a href="DailyEntry.aspx">Daily Entry   </a></li>
+                    <li>
+                        <p>&nbsp&nbsp</p>
+                    </li>
+                    <li><a href="EntryMain.aspx">New Entry   </a></li>
+                    <li>
+                        <p>&nbsp&nbsp</p>
+                    </li>
+                    <li><a href="EditPrjDetails.aspx">Projects   </a></li>
+                    <li>
+                        <p>&nbsp&nbsp</p>
+                    </li>
+                    <li><a href="SelectUser.aspx">Generate Report   </a></li>
+                    <li>
+                        <p>&nbsp&nbsp</p>
+                    </li>
+                    <li><a href="Excel2DB.aspx">Excel 2 DB   </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>Copyright © 2017 Azure Knowledge Corp. All rights reserved.</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

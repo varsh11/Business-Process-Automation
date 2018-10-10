@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BPA_Varsh.EntryMain" Collapsed="true">
+    <Position X="18" Y="0.75" Width="2" />
+    <Members>
+      <Field Name="Label1" Hidden="true" />
+      <Field Name="Label10" Hidden="true" />
+      <Field Name="Label11" Hidden="true" />
+      <Field Name="Label12" Hidden="true" />
+      <Field Name="Label13" Hidden="true" />
+      <Field Name="Label14" Hidden="true" />
+      <Field Name="Label15" Hidden="true" />
+      <Field Name="Label16" Hidden="true" />
+      <Field Name="Label17" Hidden="true" />
+      <Field Name="Label18" Hidden="true" />
+      <Field Name="Label19" Hidden="true" />
+      <Field Name="Label2" Hidden="true" />
+      <Field Name="Label20" Hidden="true" />
+      <Field Name="Label21" Hidden="true" />
+      <Field Name="Label22" Hidden="true" />
+      <Field Name="Label23" Hidden="true" />
+      <Field Name="Label24" Hidden="true" />
+      <Field Name="Label25" Hidden="true" />
+      <Field Name="Label26" Hidden="true" />
+      <Field Name="Label27" Hidden="true" />
+      <Field Name="Label28" Hidden="true" />
+      <Field Name="Label29" Hidden="true" />
+      <Field Name="Label3" Hidden="true" />
+      <Field Name="Label30" Hidden="true" />
+      <Field Name="Label31" Hidden="true" />
+      <Field Name="Label32" Hidden="true" />
+      <Field Name="Label33" Hidden="true" />
+      <Field Name="Label34" Hidden="true" />
+      <Field Name="Label35" Hidden="true" />
+      <Field Name="Label36" Hidden="true" />
+      <Field Name="Label4" Hidden="true" />
+      <Field Name="Label5" Hidden="true" />
+      <Field Name="Label6" Hidden="true" />
+      <Field Name="Label7" Hidden="true" />
+      <Field Name="Label8" Hidden="true" />
+      <Field Name="Label9" Hidden="true" />
+    </Members>
+    <AssociationLine Name="NewProjectDetails" Type="BPA_Varsh.NewProjectDetails" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.542" Y="0.75" />
+        <Point X="19.542" Y="0.136" />
+        <Point X="23.24" Y="0.136" />
+        <Point X="23.24" Y="1.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.397" Y="0.139" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ADBIgNh/FAA0JeGMCAgQSicAHDD/gBwgggHIwBKqAgM=</HashCode>
+      <FileName>EntryMain.aspx.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NewProjectDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BPA_Varsh._Default" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.75" />
+    <AssociationLine Name="Excel2DB" Type="BPA_Varsh.Excel2DB" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.5" Y="1.652" />
+        <Point X="14.052" Y="1.652" />
+        <Point X="14.052" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="DailyEntry" Type="BPA_Varsh.DailyEntry" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.75" Y="1.5" />
+        <Point X="15.75" Y="0.308" />
+        <Point X="19.459" Y="0.308" Type="JumpStart" />
+        <Point X="19.625" Y="0.308" Type="JumpEnd" />
+        <Point X="20.26" Y="0.308" />
+        <Point X="20.26" Y="1.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="EntryMain" Type="BPA_Varsh.EntryMain" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.531" Y="1.5" />
+        <Point X="16.531" Y="0.397" />
+        <Point X="18.562" Y="0.397" />
+        <Point X="18.562" Y="0.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SelectUser" Type="BPA_Varsh.SelectUser" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="1.973" />
+        <Point X="18.438" Y="1.973" />
+        <Point X="18.438" Y="2.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.605" Y="0.569" Height="0.182" Width="1.245" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAABAAAQgAAAEDgAAAAAAAAEAAAAAEIAAEQ=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Excel2DB" />
+      <Property Name="DailyEntry" />
+      <Property Name="EntryMain" />
+      <Property Name="SelectUser" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BPA_Varsh.DailyEntry" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="2" />
+    <AssociationLine Name="NewProjectDetails1" Type="BPA_Varsh.NewProjectDetails" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.812" Y="1.75" />
+        <Point X="20.812" Y="1.375" />
+        <Point X="22.5" Y="1.375" />
+        <Point X="22.5" Y="1.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.189" Y="0.409" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BBAAAEAAERAAIOEEAAAAQAQCCDA+gBgAAghgCgKFEII=</HashCode>
+      <FileName>DailyEntry.aspx.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NewProjectDetails1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BPA_Varsh.SiteMaster" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQKBAAAAIAAEABABAAAAAAIAAAA=</HashCode>
+      <FileName>Site.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPA_Varsh.NewProjectDetails" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABIAAEQAEAAEIuGEAAAAyAEAAAByAhggAgBAAAKJCAI=</HashCode>
+      <FileName>NewProjectDetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPA_Varsh.Excel2DB" Collapsed="true">
+    <Position X="13.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAEAAAACAQAAAAAAAAAAAAAAAAAAAEAEoAAAI=</HashCode>
+      <FileName>Excel2DB.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPA_Varsh.SelectUser" Collapsed="true">
+    <Position X="17.75" Y="2.25" Width="1.5" />
+    <AssociationLine Name="ADMINRepGen" Type="BPA_Varsh.ADMINRepGen" FixedFromPoint="true">
+      <Path>
+        <Point X="17.75" Y="2.677" />
+        <Point X="17.375" Y="2.677" />
+        <Point X="17.375" Y="3.096" />
+        <Point X="17" Y="3.096" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="MNGRRepGen" Type="BPA_Varsh.MNGRRepGen">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.297" Y="0.142" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DEVRepGen" Type="BPA_Varsh.DEVRepGen" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.75" Y="2.699" />
+        <Point X="17.375" Y="2.699" />
+        <Point X="17.375" Y="4.024" />
+        <Point X="17" Y="4.024" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.65" Y="0.234" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAABAEAAAAQAAAAgAAAQBAAAIQAQIAAAI=</HashCode>
+      <FileName>SelectUser.aspx.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ADMINRepGen" />
+      <Property Name="MNGRRepGen" />
+      <Property Name="DEVRepGen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BPA_Varsh.ADMINRepGen" Collapsed="true">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACEAAAAJAAIAEIQAgAQACQQFAhCAAAAAIABAA=</HashCode>
+      <FileName>ADMINRepGen.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPA_Varsh.MNGRRepGen" Collapsed="true">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAACEAADAJAAIAEIQRgAwACQ4FAhCAACBAIgBCA=</HashCode>
+      <FileName>MNGRRepGen.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPA_Varsh.DEVRepGen" Collapsed="true">
+    <Position X="15.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAAAJAAIAAIQAAAQACAAAABAAAAAAIAAAE=</HashCode>
+      <FileName>DEVRepGen.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

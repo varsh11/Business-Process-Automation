@@ -1,0 +1,113 @@
+﻿body {
+    margin: 0;
+    background: #e6e6e6;
+}
+
+.showSlide {
+    display: none;
+}
+
+    .showSlide img {
+        width: 100%;
+    }
+
+.slidercontainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.left, .right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .left:hover, .right:hover {
+        background-color: rgba(115, 115, 115, 0.8);
+    }
+
+.content {
+    color: #eff5d4;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.active {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.glass2 {
+  background: url('http://aarongehan.com/ux/themes/portfolio/images/rain.jpg') no-repeat center center fixed;
+    position: absolute;
+    -webkit-filter: blur(3px) brightness(70%) contrast(95%) hue-rotate(90deg) saturate(.8);
+    -moz-filter: blur(6px) brightness(70%) contrast(95%) hue-rotate(90deg) saturate(.5);
+    -o-filter: blur(6px) brightness(70%) contrast(95%) hue-rotate(90deg) saturate(.5);
+    -ms-filter: blur(6px) brightness(70%) contrast(95%) hue-rotate(90deg) saturate(.5);
+    filter: blur(6px) brightness(70%) contrast(95%) hue-rotate(90deg) saturate(.5);
+    opacity: .91;
+  overflow: hidden;
+}
+
+.glass {
+    font-size: 150%;
+    color:white;
+    text-align: center;
+    background: none;
+    position: relative;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    padding: 1.5%;
+    max-width: 1000% ;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 2px 7px 25px 5px rgba(7,7,38,1);
+    -moz-box-shadow: 2px 7px 25px 5px rgba(7,7,38,1);
+    box-shadow: 2px 7px 25px 5px rgba(7,7,38,1);
+}

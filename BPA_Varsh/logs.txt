@@ -1,0 +1,1019 @@
+[23-01-2018] [12:17:06] New entry sucessfully created.
+[23-01-2018] [12:54:01] New entry sucessfully created.
+[24-01-2018] [11:50:02] New entry sucessfully created.
+[24-01-2018] [12:05:18] New entry sucessfully created.
+[24-01-2018] [12:05:36] New entry sucessfully created.
+[24-01-2018] [14:00:53] Error: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 167
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[24-01-2018] [14:03:32] Error: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 167
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[24-01-2018] [14:04:05] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 172
+ClientConnectionId:e6a349be-5906-4172-95db-c293cd88e56f
+[24-01-2018] [14:06:27] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 172
+ClientConnectionId:32a79ac5-5a9f-428c-a90a-d3721c5f26d3
+[24-01-2018] [14:11:56] Error: System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 175
+[24-01-2018] [14:12:44] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 176
+ClientConnectionId:3630355f-7437-44bd-972e-0fadcf49369b
+[24-01-2018] [14:17:08] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 178
+ClientConnectionId:e7d6a838-b063-4c4f-b8cb-0fe4ef88c04c
+[24-01-2018] [14:18:04] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 178
+ClientConnectionId:84b25e58-f4d7-40bb-b196-ec108eff121f
+[29-01-2018] [11:40:25] Error: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'select count(Location) from mstLocation where Location = '.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.TitlePage.Button4_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 217
+ClientConnectionId:90a7c9d1-74fd-4234-8a33-bac165aec8e8
+[29-01-2018] [11:52:49] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Domian'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.TitlePage.Button3_Click(Object sender, EventArgs e) in c:\Users\software\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 191
+ClientConnectionId:9f46ceb7-c983-49ed-be57-fc721cd0583e
+[29-01-2018] [13:18:31] Error: New entry sucessfully created.
+[29-01-2018] [13:39:28] Error: New entry sucessfully created.
+[29-01-2018] [15:28:21] Error: New entry sucessfully created.
+[29-01-2018] [15:31:58] Error: New entry sucessfully created.
+[29-01-2018] [15:42:41] Error: New entry sucessfully created.
+[29-01-2018] [15:56:56] Error: New entry sucessfully created.
+[07-02-2018] [10:23:47] Error: New entry sucessfully created.
+[07-02-2018] [10:27:34] Error: New entry sucessfully created.
+[12-02-2018] [10:34:27] New entry sucessfully created.
+[12-02-2018] [10:54:51] Error: System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "AZ_EMP_000System.Web.UI.WebControls.TextBox" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 184
+ClientConnectionId:fc0e606d-746e-4445-9b7b-9c263be2ab7f
+Error Number:4104,State:1,Class:16
+[12-02-2018] [10:54:56] Error: System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "AZ_EMP_000System.Web.UI.WebControls.TextBox" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 184
+ClientConnectionId:3f198ca3-56fd-4b43-8e79-ba6d5154e86f
+Error Number:4104,State:1,Class:16
+[12-02-2018] [10:56:30] Error: System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "AZ_EMP_000System.Web.UI.WebControls.TextBox" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 184
+ClientConnectionId:908b1347-bb0f-454e-8b89-0726d57117f7
+Error Number:4104,State:1,Class:16
+[12-02-2018] [10:58:12] Error: System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "AZ_EMP_000System.Web.UI.WebControls.TextBox" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+ClientConnectionId:eb839f7a-061d-4eda-b4df-df9c6577fc7f
+Error Number:4104,State:1,Class:16
+[12-02-2018] [10:58:21] Error: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.DailyEntry.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 150
+ClientConnectionId:dffbc158-caa0-4c77-b7e2-ef082bd919e9
+Error Number:8152,State:2,Class:16
+[12-02-2018] [10:59:32] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AZ_EMP_0001201'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+ClientConnectionId:fbd84877-a7c0-42b7-81d7-561179185d50
+Error Number:207,State:1,Class:16
+[12-02-2018] [10:59:54] Error: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.DailyEntry.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 150
+ClientConnectionId:124fc1a4-2199-4a56-89b0-e94349fb56e6
+Error Number:8152,State:2,Class:16
+[12-02-2018] [11:01:44] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AZ_EMP_0001201'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+ClientConnectionId:b5ab8247-33d6-4f3a-ba8a-f3dc28276226
+Error Number:207,State:1,Class:16
+[12-02-2018] [11:08:08] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AZ_EMP_0001201'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+ClientConnectionId:3722bcdf-a6ed-4632-830f-0fac77a6bfc4
+Error Number:207,State:1,Class:16
+[12-02-2018] [11:11:27] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AZ_EMP_0001201'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+ClientConnectionId:3bcda906-9365-41a2-ba6a-f79c6d74eb1b
+Error Number:207,State:1,Class:16
+[12-02-2018] [11:16:31] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+[12-02-2018] [11:19:02] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+[12-02-2018] [11:19:15] Error: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.DailyEntry.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 150
+ClientConnectionId:0c062fc0-15b7-45dc-abf2-6793ce00c379
+Error Number:8152,State:2,Class:16
+[12-02-2018] [11:21:33] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 185
+[12-02-2018] [11:26:11] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.DailyEntry.getDeptIDlnkbtn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 187
+[12-02-2018] [11:29:14] Error: System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK__mstDEntr__0148818EF438E8E2'. Cannot insert duplicate key in object 'dbo.mstDEntry'. The duplicate key value is (AZ_F4_001).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.DailyEntry.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 150
+ClientConnectionId:ff1000e1-8e10-4f7f-ae55-1e539341a29a
+Error Number:2627,State:1,Class:14
+[12-02-2018] [11:30:32] New entry sucessfully created.
+[12-02-2018] [12:35:47] Error: System.ArgumentOutOfRangeException: Insertion index was out of range. Must be non-negative and less than or equal to size.
+Parameter name: index
+   at System.Collections.ArrayList.Insert(Int32 index, Object value)
+   at System.Web.UI.WebControls.ListItemCollection.Insert(Int32 index, String item)
+   at BPA_Varsh.NewProjectDetails.addLoc2Btn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\NewProjectDetails.aspx.cs:line 158
+[12-02-2018] [12:39:03] Error: System.ArgumentOutOfRangeException: Insertion index was out of range. Must be non-negative and less than or equal to size.
+Parameter name: index
+   at System.Collections.ArrayList.Insert(Int32 index, Object value)
+   at System.Web.UI.WebControls.ListItemCollection.Insert(Int32 index, String item)
+   at BPA_Varsh.NewProjectDetails.addLoc2Btn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\NewProjectDetails.aspx.cs:line 158
+[12-02-2018] [12:43:13] Error: System.ArgumentOutOfRangeException: Insertion index was out of range. Must be non-negative and less than or equal to size.
+Parameter name: index
+   at System.Collections.ArrayList.Insert(Int32 index, Object value)
+   at System.Web.UI.WebControls.ListItemCollection.Insert(Int32 index, String item)
+   at BPA_Varsh.NewProjectDetails.addLoc2Btn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\NewProjectDetails.aspx.cs:line 158
+[12-02-2018] [12:51:15] Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'PrjID'.
+Invalid column name 'PrjName'.
+Invalid column name 'PrjStrength'.
+Invalid column name 'PrjMngr'.
+Invalid column name 'SDate'.
+Invalid column name 'EDate'.
+Invalid column name 'PName'.
+Invalid column name 'PCountry'.
+Invalid column name 'PrjCountry'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.NewProjectDetails.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\NewProjectDetails.aspx.cs:line 205
+ClientConnectionId:c393e74a-4a2a-4e59-92a4-a3f4054ccb21
+Error Number:207,State:1,Class:16
+[12-02-2018] [12:52:59] New entry sucessfully created.
+[12-02-2018] [13:28:50] New entry sucessfully created.
+[26-02-2018] [11:23:30] Entry sucessfully updated.
+[26-02-2018] [11:27:57] Entry sucessfully updated.
+[26-02-2018] [11:28:28] Entry sucessfully updated.
+[26-02-2018] [11:28:45] Entry sucessfully updated.
+[26-02-2018] [11:35:34] Entry sucessfully updated.
+[26-02-2018] [11:36:02] Entry sucessfully updated.
+[26-02-2018] [11:36:16] Entry sucessfully updated.
+[28-02-2018] [12:24:04] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 53
+[28-02-2018] [12:24:20] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 53
+[28-02-2018] [12:24:28] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 53
+[28-02-2018] [12:30:25] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:30:40] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:30:41] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:30:44] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:32:50] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:32:52] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:35:31] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:38:19] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 54
+[28-02-2018] [12:39:50] Forget Password: Mail Sent.
+[28-02-2018] [12:45:46] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 52
+[28-02-2018] [12:46:05] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 52
+[28-02-2018] [12:48:38] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 55
+[28-02-2018] [12:50:42] Error: System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(Int32 i)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 55
+[28-02-2018] [12:54:34] Forget Password: Mail Sent.
+[28-02-2018] [13:04:28] ***ALERT***: AZ_EMP_0002120 Tried to enter as ADMIN.
+[28-02-2018] [13:04:38] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 87
+[28-02-2018] [13:32:32] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 84
+[28-02-2018] [13:34:14] Error: System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@EmpID".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.SqlDataSource.Select(DataSourceSelectArguments arguments)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 89
+ClientConnectionId:545ab03c-d2c5-419c-9402-1be77ac7a3e8
+Error Number:137,State:2,Class:15
+[28-02-2018] [13:35:15] Error: System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@EmpID".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.SqlDataSource.Select(DataSourceSelectArguments arguments)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 89
+ClientConnectionId:9884c213-c579-40e8-b575-0f06abc995b5
+Error Number:137,State:2,Class:15
+[28-02-2018] [13:51:25] Forget Password: Mail Sent.
+[28-02-2018] [13:55:29] Forget Password: Mail Sent.
+[28-02-2018] [14:13:42] ***ALERT***: AZ_EMP_0002120 Tried to enter as ADMIN.
+[28-02-2018] [14:13:53] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 103
+[28-02-2018] [14:14:09] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 135
+[28-02-2018] [14:29:12] ***ALERT***:  Tried to enter as ADMIN.
+[28-02-2018] [14:29:21] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 137
+[28-02-2018] [14:29:50] Error: System.ArgumentNullException: Value cannot be null.
+Parameter name: to
+   at System.Net.Mail.MailMessage..ctor(String from, String to)
+   at System.Net.Mail.MailMessage..ctor(String from, String to, String subject, String body)
+   at BPA_Varsh.LogIn.lbFrgtPass_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 95
+[28-02-2018] [14:37:07] Forget Password: Mail Sent.
+[28-02-2018] [15:07:26] Error: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BPA_Varsh.DailyEntry.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\DailyEntry.aspx.cs:line 161
+ClientConnectionId:0eefb3de-c777-463c-a32d-fd9c89b01c42
+Error Number:8152,State:2,Class:16
+[28-02-2018] [15:08:28] Entry sucessfully updated.
+[28-02-2018] [15:08:45] Entry sucessfully updated.
+[28-02-2018] [15:09:03] Entry sucessfully updated.
+[28-02-2018] [15:09:09] Entry sucessfully updated.
+[28-02-2018] [15:09:57] ***ALERT***:  Tried to enter as ADMIN.
+[28-02-2018] [15:10:14] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[28-02-2018] [15:10:44] Forget Password: Mail Sent.
+[28-02-2018] [15:12:57] New entry sucessfully created.
+[28-02-2018] [15:22:30] New entry sucessfully created.
+[28-02-2018] [15:23:17] Entry sucessfully updated.
+[28-02-2018] [15:23:25] Entry sucessfully updated.
+[28-02-2018] [15:23:39] Entry sucessfully updated.
+[28-02-2018] [15:23:45] Entry sucessfully updated.
+[28-02-2018] [15:24:12] ***ALERT***:  Tried to enter as ADMIN.
+[28-02-2018] [15:24:30] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[28-02-2018] [15:24:50] Forget Password: Mail Sent.
+[28-02-2018] [15:25:07] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[28-02-2018] [15:25:19] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[28-02-2018] [15:25:37] ***ALERT***:  Tried to enter as DEVELOPER.
+[09-03-2018] [18:56:32] ***ALERT***:  Tried to enter as DEVELOPER.
+[12-03-2018] [12:15:16] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[12-03-2018] [12:15:37] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [10:11:40] ***ALERT***:  Tried to enter as ADMIN.
+[13-03-2018] [10:11:50] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[13-03-2018] [11:36:09] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[13-03-2018] [13:42:42] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[13-03-2018] [13:48:28] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [14:57:09] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[13-03-2018] [14:58:55] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[13-03-2018] [15:11:24] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[13-03-2018] [15:25:21] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[13-03-2018] [15:51:04] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[13-03-2018] [15:51:49] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[13-03-2018] [15:52:56] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[13-03-2018] [15:53:18] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [15:53:53] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [16:04:33] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 240
+[13-03-2018] [16:04:59] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 240
+[13-03-2018] [16:09:18] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
+[13-03-2018] [16:11:26] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
+[13-03-2018] [16:14:37] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [16:17:31] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [16:18:55] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [16:21:16] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [16:22:28] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [16:24:49] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 237
+[13-03-2018] [16:28:43] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
+[13-03-2018] [16:29:40] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
+[13-03-2018] [16:29:57] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
+[05-04-2018] [14:50:29] ***ALERT***:  Tried to enter as ADMIN.
+[05-04-2018] [14:50:51] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[06-04-2018] [15:24:57] Error: System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=16154; handshake=131;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BPA_Varsh.EntryMain.Page_Load(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\EntryMain.aspx.cs:line 51
+ClientConnectionId:b7f6371f-34ba-4d54-adb9-044b1ac08b17
+Error Number:-2,State:0,Class:11
+[06-04-2018] [15:30:27] New entry sucessfully created.
+[06-04-2018] [15:33:33] New entry sucessfully created.
+[06-04-2018] [15:35:08] Entry sucessfully updated.
+[06-04-2018] [15:35:43] Entry sucessfully updated.
+[06-04-2018] [15:36:04] Entry sucessfully updated.
+[06-04-2018] [15:37:40] ***ALERT***:  Tried to enter as ADMIN.
+[06-04-2018] [15:38:01] Forget Password: Mail Sent.
+[06-04-2018] [15:38:23] Forget Password: Mail Sent.
+[06-04-2018] [15:39:11] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[06-04-2018] [15:41:36] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[06-04-2018] [15:42:54] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[06-04-2018] [15:44:04] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[06-04-2018] [15:44:25] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[06-04-2018] [15:46:14] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
+[09-04-2018] [14:31:49] New entry sucessfully created.
+[09-04-2018] [14:34:04] New entry sucessfully created.
+[09-04-2018] [14:34:54] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[09-04-2018] [14:42:00] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
+[26-04-2018] [09:32:27] New entry sucessfully created.
+[26-04-2018] [09:33:38] New entry sucessfully created.
+[26-04-2018] [09:34:40] Entry sucessfully updated.
+[26-04-2018] [09:35:31] ***ALERT***:  Tried to enter as ADMIN.
+[26-04-2018] [09:35:49] Forget Password: Mail Sent.
+[26-04-2018] [09:36:04] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 155
+[26-04-2018] [09:37:35] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 196
+[26-04-2018] [09:39:47] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BPA_Varsh.LogIn.btnLogIn_Click(Object sender, EventArgs e) in c:\Users\Varsh Patel\Documents\Visual Studio 2013\Projects\BPA_Varsh\BPA_Varsh\LogIn.aspx.cs:line 238
